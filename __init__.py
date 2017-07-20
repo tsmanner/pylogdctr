@@ -13,6 +13,7 @@ class MyClass:
 """
 import logging
 
+
 def logs(cls):
     cls._log = logging.getLogger("{modulename}.{classname}".format(modulename=cls.__module__, classname=cls.__name__))
     return cls
